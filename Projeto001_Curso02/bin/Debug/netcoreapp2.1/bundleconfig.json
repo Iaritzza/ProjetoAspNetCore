@@ -1,14 +1,21 @@
 [
-
   {
-    "outputFileName": "wwwroot/css/site.min.css",
-    "inputFiles": [ "wwwroot/css/site.css" ]
+    "outputFileName": "wwwroot/lib/bundle.js",
+    "inputFiles": [
+      "wwwroot/lib/fullcalendar/fullcalendar.js",
+      "wwwroot/lib/fullcalendar/gcal.js"
+    ]
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
     "inputFiles": [
-      "wwwroot/js/common.js",
-      "wwwroot/js/user.js"
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/bundle.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     ]
   }
 ]
